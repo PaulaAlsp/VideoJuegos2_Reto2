@@ -16,7 +16,7 @@ public class CameraSwitcher : MonoBehaviour
   
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.C))
+        if(Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown("camarachange"))
         {
             currentCam++;
 
