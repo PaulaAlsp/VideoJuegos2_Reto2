@@ -843,7 +843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.047970816, g: 0.052495964, b: 0.20754719, a: 0.9490196}
+  m_Color: {r: 0.08843375, g: 0.0754717, b: 0.3018868, a: 0.9490196}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -921,7 +921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6454271979134152430, guid: 943990d391a527f40aac49154ec04523, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 800
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 6454271979134152430, guid: 943990d391a527f40aac49154ec04523, type: 3}
       propertyPath: m_SizeDelta.y
@@ -981,7 +981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6454271979438518995, guid: 943990d391a527f40aac49154ec04523, type: 3}
       propertyPath: m_text
-      value: "Men\xFA de inicio"
+      value: "Men\xFA principal"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 943990d391a527f40aac49154ec04523, type: 3}
@@ -1070,7 +1070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6454271979134152430, guid: 943990d391a527f40aac49154ec04523, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 800
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 6454271979134152430, guid: 943990d391a527f40aac49154ec04523, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1208,8 +1208,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<style=H1>Creditos</style>\r\nEste proyecto fue desarrollado con fines
-    academicos, como solucion al <b>reto No.2</b> para el diplomado <b>Desarrollo
+  m_text: "<style=H1><b>Creditos</b></style>\r\nEste proyecto fue desarrollado con
+    fines academicos, como solucion al <b>reto No.2</b> para el diplomado <b>Desarrollo
     de Videojuegos Nivel Intermedio</b> que ofrece el programa <b>Todos a la U</b>.\r\n<size=21>A\xF1o
     de desarrollo del proyecto: 2023</size>\r\n\r\n<style=H2>Desarrolladores</style>\r\n<indent=15>\xB7
     Nicol\xE1s Sebasti\xE1n Moya Guevara\r\n\xB7 Liz Carol Molina Rincon\r\n\xB7
@@ -1247,8 +1247,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

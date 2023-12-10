@@ -164,8 +164,8 @@ public class RaceManager : MonoBehaviour
                 break;
         }
 
-
         UIManager.instance.resultsScreen.SetActive(true);
+        UIManager.instance.defaultScreen.SetActive(false);
     }
 
 }
