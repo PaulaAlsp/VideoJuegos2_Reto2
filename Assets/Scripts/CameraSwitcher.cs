@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CameraSwitcher : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class CameraSwitcher : MonoBehaviour
   
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown("camarachange"))
+        if(Input.GetKeyDown(KeyCode.C) || Gamepad.current.buttonWest.wasPressedThisFrame)
         {
             currentCam++;
 
