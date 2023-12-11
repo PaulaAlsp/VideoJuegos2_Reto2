@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
+    public GameObject buttonInicial;
 
     public TMP_Text countDownText, lapCounterText, bestLapTimeText, currentLapTimeText, totalLaps, positionText, raceResultText;
     public GameObject defaultScreen, pauseScreen, resultsScreen;
@@ -32,6 +34,7 @@ public class UIManager : MonoBehaviour
                 Time.timeScale = 1f;
                 pauseScreen.SetActive(false);
                 panelPausaActive = false;
+                EventSystem.current.SetSelectedGameObject(buttonInicial);
             }
         }
     }

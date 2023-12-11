@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 1dfaee0c8de22ff48a22c67a951d669c
   - enabled: 1
-    path: Assets/Scenes/Pista1.unity
+    path: Assets/Scenes/PistaNo1.unity
     guid: 94ca44e1ecdbe364fa6574f12e1367ae
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: d878265e10962034489af6235bac502a
   - enabled: 1
-    path: Assets/Scenes/Pista2.unity
+    path: Assets/Scenes/PistaNo2.unity
     guid: 24866eadc560efc4db137a89ea1acedf
   - enabled: 1
     path: Assets/Scenes/PanelAyuda.unity
